@@ -78,6 +78,7 @@ body {
 }
 
 .fundo-video {
+    background-color: black;
     position: absolute;
     z-index: -1;
     width: 100vw;
@@ -88,12 +89,6 @@ body {
     
 }
 
-/* .fundo-video .video {
-    width: 100vw;
-    
-
-} */
-
 .fundo-video::after {
     content: "";
     height: 100vh;
@@ -102,7 +97,7 @@ body {
     top: 0px;
     left: 0px;
     background: rgb(0,0,0);
-    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.90) 50%, rgba(0,0,0,1) 100%);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.70) 50%, rgba(0,0,0,1) 100%);
 }
 
 .modal {
